@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="icon"href="b.png"type="image/png"sizes="2x2">
+<title>selection_sort</title>
+<body style="background-color:skyblue;">
+
+<h2>selection sort in java script</h2>
+
+<p><b>Click the button to sort the array in descending order<b></p>
+
+<button onclick="myFunction()">Try it</button>
+
+<p id="demo"></p>
+
+<script>
+var points = [40, 100, 1, 5, 25, 10];
+document.getElementById("demo").innerHTML = points;
+
+function myFunction() {
+  points.sort(function(a, b){return a - b});
+  document.getElementById("demo").innerHTML = points;
+}
+</script>
+
+</body>
+</html>
