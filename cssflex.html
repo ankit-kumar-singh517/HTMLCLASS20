@@ -1,0 +1,79 @@
+<!doctype>
+<html>
+<head>
+	<title>cssflexbox</title>
+	<style>
+		
+    
+	 .flex-container
+	 {
+	 	display:-webkit-flex;
+	 	display:flex;
+	 	-webkit-flex-flow:row wrap;
+	 	flex-flex:row wrap;
+	 	text-align:center;
+
+	 }	
+	 .flex-container>*
+	 {
+	 	padding:30px;
+	 	-webkit-flex:100%;
+	 	flex:100%;
+	 }
+	  .article
+	  {
+	  	text-align:left;
+
+	  }
+	   header{background:black.color:skyblue;}
+	   footer{background:green;color:skyblue;}
+	   .nav{background:green;}
+
+	   .nav ul{
+	   	       list-style-type:none;
+	   	       padding:0;
+	   }
+	    .nav ul a{
+	    	      text-decoration:none;
+	    	      
+	    }
+	     @media all and (min-width:100%)
+	     {
+	     	.nav
+	     	{
+	     		text-align:left;-webkit-flex:1 auto;flex:1 auto;-webkit-order:1;order:1;
+
+	     	}
+	     }
+	 </style>
+	</head>
+	<div class="flex-container">
+
+         <header>
+         	<iframe src="demo_iframe.htm" name="iframe_a" height="100px" width="100%" title="Iframe Example"></iframe>
+         	<h1><center><a href="https://www.kiet.edu/" target="iframe_a">KIET COLLAGE</a></center></h1>
+
+
+		  
+		   	
+		   	</header>
+		   	<nav class="nav">
+		   		<ul>
+		   			  <h1><li><a href="#">VISION</a></li></h1>
+		   			  <h1><li><a href="#">MISSION</a></li></h1>
+		   			 <h1><li><a href="#">QUALITY POLICY</a></li></h1>
+		   		</ul>
+		   	</nav>
+		   	<article class ="article">
+		   	<h1>QUALITY POLICY</h1>
+		   	<p>
+		   	    Acknowledgement our commitment towards quality and systematically working , the quality certified authority has awarded us.
+		   	</p>
+		</article>
+
+		<footer>copyright&copy;Kiet.edu</footer>
+
+
+</div>
+</body>
+</html>		   	    		 	
